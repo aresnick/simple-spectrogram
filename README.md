@@ -1,10 +1,6 @@
 # spectrogram
 
-> Audio spectrogram in canvas.
-
-## Demo
-
-This demo is a simplified, lightly adapted example from [`miguelmota/spectrogram`](https://lab.miguelmota.com/spectrogram)
+This is a simplified, lightly adapted example of a simple spectrogram from [`miguelmota/spectrogram`](https://lab.miguelmota.com/spectrogram)
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aresnick/simple-spectrogram/master/LICENSE)
 
