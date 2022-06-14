@@ -1,36 +1,28 @@
-<h3 align="center">
-  <br />
-  <img src="https://user-images.githubusercontent.com/168240/51434534-a768ce80-1c17-11e9-8b98-4eb753163c30.png" alt="logo" width="400" />
-  <br />
-  <br />
-  <br />
-</h3>
-
 # spectrogram
 
 > Audio spectrogram in canvas.
 
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/spectrogram/master/LICENSE) [![Build Status](https://travis-ci.org/miguelmota/spectrogram.svg?branch=master)](https://travis-ci.org/miguelmota/spectrogram) [![dependencies Status](https://david-dm.org/miguelmota/spectrogram/status.svg)](https://david-dm.org/miguelmota/spectrogram) [![NPM version](https://badge.fury.io/js/spectrogram.svg)](http://badge.fury.io/js/spectrogram)
+## Demo
+
+This demo is a simplified, lightly adapted example from [`miguelmota/spectrogram`](https://lab.miguelmota.com/spectrogram)
+
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aresnick/simple-spectrogram/master/LICENSE)
+
+[![NPM version](https://badge.fury.io/js/spectrogram.svg)](http://badge.fury.io/js/spectrogram)
 
 [![NPM](https://nodei.co/npm/spectrogram.png)](https://nodei.co/npm/spectrogram)
 
-## Demo
-
-**[https://lab.miguelmota.com/spectrogram](https://lab.miguelmota.com/spectrogram)**
-
-<img src="./example/images/screenshot_grayscale.gif" width="400">
-
-## Install
-
-```bash
-npm install spectrogram
-```
-
 ## Getting started
+
+* Start a server in the cloned repository (_e.g._ _via_ `python -m http.server`)
+* Navigate to the root directory (_e.g._ with `python -m http.server`, head to `localhost:8000`, serving up `index.html`)
+* Click the 🎤 and provide microphone access.
 
 Take a look at the [full example](example/).
 
-##### Spectrogram of an audio file buffer.
+## Example documentation from `miguelmota/spectrogram`
+
+### Spectrogram of an audio file buffer.
 
 ```javascript
 var spectrogram = require('spectrogram');
@@ -56,7 +48,7 @@ request.onload = function() {
 request.send();
 ```
 
-##### Live input stream with [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia).
+### Live input stream with [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia).
 
 ```javascript
 navigator.getUserMedia({
@@ -111,6 +103,8 @@ var spectro = Spectrogram(..., {
 ## Credits
 
 - [Exploring the HTML5 Web Audio: visualizing sound](http://www.smartjava.org/content/exploring-html5-web-audio-visualizing-sound)
+
+- [`miguelmota/spectrogram`](https://github.com/miguelmota/spectrogram)
 
 ## License
 
